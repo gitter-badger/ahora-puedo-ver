@@ -1,6 +1,8 @@
 
-[logo]: http://s557052454.mialojamiento.es/wp-content/uploads/2014/12/logo2.jpg "Nikita Nipone. Ahora puedo ver"
+[logo]: http://nikitanipone.es/wp-content/uploads/2014/12/logo2.jpg "Nikita Nipone"
 # ahora-puedo-ver
+Inline-style:
+![alt text](http://nikitanipone.es/wp-content/uploads/2015/04/portada4-1049x600.jpg "Coleccion Ahora puedo ver")
 ## Información relativa al proyecto de nikita nipone:
 1. Que sea sencillo :-)
 
