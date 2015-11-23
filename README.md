@@ -4,7 +4,7 @@
 ![alt text](http://nikitanipone.es/wp-content/uploads/2015/04/portada4-1049x600.jpg "Coleccion Ahora puedo ver")
 ## Información relativa al proyecto de nikita nipone tras primer contacto:
 1. Que sea sencillo :-)
-	
+
 
 
 ## Cuando me quieras decir algo sobre el proyecto, sobre el cambiar alguna imagen, algún dato o lo que sea, utiliza el "issue" para que me sea más fácil a mi a través de éste enlace.
@@ -23,3 +23,6 @@ También tendrás en algún momento el tipo de letra que te gustaría emplear pa
 
 ## Webs de referencia.
 Pues lo mismo, si durante el tiempo que no tengamo elegido el diseño me quieres mandar páginas web con catálogos de refencia ...utiliza un "issue" para hacerme llegar toda la info posible. Te reitero y no quiero sonar pesado, que a mi me ayuda mucho.
+
+### Parrilla
+Que te parece esta galería [galería de ejemplo](http://sachinchoolur.github.io/lightGallery/) ?
