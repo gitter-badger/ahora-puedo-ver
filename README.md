@@ -4,6 +4,7 @@
 ![alt text](http://nikitanipone.es/wp-content/uploads/2015/04/portada4-1049x600.jpg "Coleccion Ahora puedo ver")
 ## Información relativa al proyecto de nikita nipone tras primer contacto:
 1. Que sea sencillo :-)
+	
 
 
 ## Cuando me quieras decir algo sobre el proyecto, sobre el cambiar alguna imagen, algún dato o lo que sea, utiliza el "issue" para que me sea más fácil a mi a través de éste enlace.
@@ -21,3 +22,4 @@ Para selecionar colores, utiliza esta herramienta que te paso para [crear la pal
 También tendrás en algún momento el tipo de letra que te gustaría emplear para el catálogo. Echale un vistazo a las fuentes de google y me cuentas (utiliza lo de "issue") [enlace a las fuentes de google .](https://www.google.com/fonts)
 
 ## Webs de referencia.
+Pues lo mismo, si durante el tiempo que no tengamo elegido el diseño me quieres mandar páginas web con catálogos de refencia ...utiliza un "issue" para hacerme llegar toda la info posible. Te reitero y no quiero sonar pesado, que a mi me ayuda mucho.
