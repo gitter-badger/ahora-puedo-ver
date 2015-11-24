@@ -1210,7 +1210,7 @@
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lg-fullscreen.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-fullscreen.js",
 		"outputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/min\/lg-fullscreen-min.js",
@@ -1276,7 +1276,7 @@
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lg-thumbnail.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-thumbnail.js",
 		"outputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/min\/lg-thumbnail-min.js",
@@ -1929,7 +1929,7 @@
 		"outputAbbreviatedPath": "\/imagenes-previas\/4bis.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/imagenes-previas\/5bis.jpg": {
 		"fileType": 16384,
@@ -1975,24 +1975,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imagenes-previas\/prologocoleccioìn.jpg": {
+	"\/imagenes-previas\/prologocoleccioin.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 717502,
-		"inputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioìn.jpg",
-		"outputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioìn.jpg",
+		"inputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioin.jpg",
+		"outputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioin.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imagenes-previas\/prologocoleccioìn2.jpg": {
+	"\/imagenes-previas\/prologocoleccioin2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 467280,
-		"inputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioìn2.jpg",
-		"outputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioìn2.jpg",
+		"inputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioin2.jpg",
+		"outputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioin2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2030,7 +2030,7 @@
 		},
 	"\/javascripts\/mousewheel.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/javascripts\/mousewheel.js",
 		"outputAbbreviatedPath": "\/javascripts\/min\/mousewheel-min.js",
@@ -2155,24 +2155,6 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
 			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascripts\/mousewheel.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-thumbnail.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-fullscreen.js",
-			"position": 3,
 			"type": 0
 			}
 		]
