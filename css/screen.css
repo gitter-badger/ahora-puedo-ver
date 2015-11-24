@@ -50,11 +50,96 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .main0 {
   height: 100vh;
+  background: url('../images/portada1.jpg?1448369874');
+  background: url('../images/portada1.jpg?1448369874');
+  background-size: cover; }
+
+.bloque {
   width: 100%;
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background: url('../images/portada1.jpg?1448369874');
-  background-size: cover; }
+  padding-top: 13.04348%;
+  padding-bottom: 13.04348%;
+  padding-left: 5.7971%;
+  padding-right: 5.7971%;
+  background-color: white; }
+
+#lightgallery li {
+  width: 32.20339%;
+  float: left;
+  margin-bottom: 1.69492%; }
+  #lightgallery li:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0; }
+  #lightgallery li:nth-child(3n + 2) {
+    margin-left: 33.89831%;
+    margin-right: -100%;
+    clear: none; }
+  #lightgallery li:nth-child(3n + 3) {
+    margin-left: 67.79661%;
+    margin-right: -100%;
+    clear: none; }
+  #lightgallery li img {
+    width: 100%;
+    height: auto; }
+
+#footer {
+  background: #cccccc; }
+
+header {
+  position: fixed;
+  line-height: 40px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  color: blue;
+  background-color: transparent;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  transition-duration: 1s; }
+  header h1 {
+    padding-left: 5.7971%; }
+  header ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding-right: 5.7971%; }
+    header ul::after {
+      clear: both;
+      content: "";
+      display: table; }
+    header ul li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px; }
+      header ul li:first-child {
+        padding-left: 0; }
+      header ul li:last-child {
+        padding-right: 0; }
+      header ul li.last {
+        padding-right: 0; }
+
+header.sticky {
+  background-color: red;
+  color: green; }

@@ -7,13 +7,13 @@ $susy: (
   container-position: center,
   columns: 14,
   gutters: .25,
-  column-width: false,
-  global-box-sizing: content-box,
+  // column-width: false,
+  global-box-sizing: border-box,
   last-flow: to,
   debug: (
     image: show,
     color: rgba(#66f, .25),
-    output: background,
+    output: overlay,
     toggle: top right,
   ),
   use-custom: (
@@ -24,9 +24,56 @@ $susy: (
     rem: true,
   )
 );
+@include border-box-sizing;
 .main0 {
   height: 100vh;
-  @include span(full);
   @include background(image-url("portada1.jpg"));
   background-size: cover;
 }
+
+.bloque {
+  @include span(full);
+  padding-top: span(2);
+  padding-bottom: span(2);
+  padding-left: span(1);
+  padding-right: span(1);
+  background-color: $color-blanco;
+}
+// GALLERY
+
+#lightgallery li {
+  @include gallery(4 of 12);
+  margin-bottom: gutters(12);
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+#footer {
+  background: #cccccc;
+}
+header {
+  position: fixed;
+  line-height: 40px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  @include span(full);
+  color: blue;
+  background-color: transparent;
+  @include transition-property(background-color);
+  @include transition-duration(1s);
+  h1 {
+    padding-left: span(1);
+  }
+  ul {
+    @include horizontal-list;
+    padding-right: span(1);
+  }
+
+} 
+  
+  header.sticky {
+    background-color: red;
+    color: green;
+  }
