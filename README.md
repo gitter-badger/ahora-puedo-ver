@@ -14,6 +14,10 @@ Por ejemplo, si me quieres decir hacer alguna indicación sobre que no funciona 
 
 La otra alternativa sería el chorreo ilimitado de mail y sus respuestas que no benefician la gestión. :-) ehhhh martanonona
 
+## Formulario de envío.
+Usaremos formkeep para crear el formulario.
+[Servidor de formularios.](https://formkeep.com/)
+
 ## Colores.
 
 Para selecionar colores, utiliza esta herramienta que te paso para [crear la paleta.](https://coolors.co). Es un poco más lioso quizás para ti, pero a mi me ayuda a gestionar todo. Creas uno y me lo mandas a través de un "issue" :-) ...tu si que eres "issue"

@@ -70,7 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 13.04348%;
   padding-left: 5.7971%;
   padding-right: 5.7971%;
-  background-color: white; }
+  background-color: #fff; }
 
 #lightgallery li {
   width: 32.20339%;
@@ -141,5 +141,5 @@ header {
         padding-right: 0; }
 
 header.sticky {
-  background-color: red;
-  color: green; }
+  background-color: #D30097;
+  color: #fff; }
