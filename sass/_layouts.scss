@@ -30,12 +30,76 @@ body {
 }
 .main0 {
   height: 100vh;
-  @include background(image-url("portada1.jpg"));
-  background-size: cover;
+  @include background(image-url("portada-home.png"));
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  @include breakpoint($portatiles){
+    background-size: cover;
+  }
+  h1 {
+    font-family: 'Bebas kai', serif;
+    color: $color-blanco;
+    background-color: $color-negro;
+    font-size: 60px;
+    display: inline;
+    
+  }
+  h2 {
+    color: $color-negro;
+    font-size: 30px;
+    font-family: 'Bebas kai', serif;
+    @include breakpoint($tabletas){
+      margin-bottom: span(1);
+    }
+    
+  }
 }
+.main1 {
+  height: 100vh;
+  @include background(image-url("2sintexto.jpg"));
+  background-size: cover;
+  h1 {
+    padding-left: span(5);
+      margin-bottom: span(1);
+      text-align: center;
+    }
+  p{
+    background: rgba($color-blanco, 0.7);
+    margin-bottom: span(1);
+    @include breakpoint($tabletas2){
+      background: rgba($color-blanco, 0);
+      padding-left: span(5);
+      margin-bottom: span(1);
+      margin-bottom: span(.5);
+    
+    }
+    
+}
+p {
+  &:last-of-type {
+      
+      margin-bottom: span(6);
+    }
+}
+  h1 {
+    text-align: center;
 
+  }
+  @include breakpoint($pantallones){
+
+  }
+  
+
+}
 .bloque {
   @include span(full);
+  
+}
+.main1, .main2, .main3, .main4 {
   padding-top: span(2);
   padding-bottom: span(2);
   padding-left: span(1);
@@ -75,13 +139,13 @@ header {
   @include transition-duration(1s);
   }
   h1 {
-    font-family: 'Bebas kai', serif;
     padding-left: 0px;
     color: $color-blanco;
     margin-bottom: span(1);
     font-size: 30px;
     @include breakpoint($tabletas) {
     padding-left: span(1);
+    margin-bottom: 0px;
   }
   }
   ul {
@@ -99,7 +163,9 @@ header {
   }
 
 } 
-  
+h1, h2, h3 {
+  font-family: 'Bebas kai', serif;
+}
   header.sticky {
     background-color: $color-purpura;
     color: $color-blanco;

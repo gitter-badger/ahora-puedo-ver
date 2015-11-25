@@ -2566,6 +2566,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imagenes-previas\/2sintexto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 537801,
+		"inputAbbreviatedPath": "\/imagenes-previas\/2sintexto.jpg",
+		"outputAbbreviatedPath": "\/imagenes-previas\/2sintexto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imagenes-previas\/30bis.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2698,6 +2709,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imagenes-previas\/portada.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 597828,
+		"inputAbbreviatedPath": "\/imagenes-previas\/portada.jpg",
+		"outputAbbreviatedPath": "\/imagenes-previas\/portada.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imagenes-previas\/portada1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2727,6 +2749,39 @@
 		"initialSize": 467280,
 		"inputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioin2.jpg",
 		"outputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioin2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2sintexto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 537801,
+		"inputAbbreviatedPath": "\/images\/2sintexto.jpg",
+		"outputAbbreviatedPath": "\/images\/2sintexto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portada-home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.41506e+06,
+		"inputAbbreviatedPath": "\/images\/portada-home.png",
+		"outputAbbreviatedPath": "\/images\/portada-home.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portada.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 597828,
+		"inputAbbreviatedPath": "\/images\/portada.jpg",
+		"outputAbbreviatedPath": "\/images\/portada.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
