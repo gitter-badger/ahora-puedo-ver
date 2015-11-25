@@ -25,6 +25,9 @@ $susy: (
   )
 );
 @include border-box-sizing;
+body {
+  font-family: 'Fauna One', serif;
+}
 .main0 {
   height: 100vh;
   @include background(image-url("portada1.jpg"));
@@ -65,10 +68,16 @@ header {
   @include transition-duration(1s);
   h1 {
     padding-left: span(1);
+    font-family: 'Bebas kai', serif;
+    font-size: 30px;
+    color: $color-blanco;
   }
   ul {
     @include horizontal-list;
     padding-right: span(1);
+  }
+  a {
+    color: $color-blanco;
   }
 
 } 

@@ -2,6 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(https://fonts.googleapis.com/css?family=Fauna+One);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,14 +50,19 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+@font-face {
+  font-family: "Bebas kai";
+  src: url('../fonts/BebasKai-Regular.ttf') format('truetype'); }
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+body {
+  font-family: 'Fauna One', serif; }
 
 .main0 {
   height: 100vh;
-  background: url('../images/portada1.jpg?1448369874');
   background: url('../images/portada1.jpg?1448369874');
   background-size: cover; }
 
@@ -107,23 +113,26 @@ header {
   margin-right: 0;
   color: blue;
   background-color: transparent;
-  -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -webkit-transition-property: background-color;
   transition-property: background-color;
-  -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
   transition-duration: 1s; }
   header h1 {
-    padding-left: 5.7971%; }
+    padding-left: 5.7971%;
+    font-family: 'Bebas kai', serif;
+    font-size: 30px;
+    color: #fff; }
   header ul {
     margin: 0;
     padding: 0;
     border: 0;
+    overflow: hidden;
+    *zoom: 1;
     padding-right: 5.7971%; }
-    header ul::after {
-      clear: both;
-      content: "";
-      display: table; }
     header ul li {
       list-style-image: none;
       list-style-type: none;
@@ -138,9 +147,11 @@ header {
         padding-right: 0; }
       header ul li.last {
         padding-right: 0; }
+  header a {
+    color: #fff; }
 
 header.sticky {
-  background-color: #D30097;
+  background-color: #9a41c6;
   color: #fff; }
 
 .smcx-embed, .smcx-embed > .smcx-iframe-container {
@@ -150,17 +161,17 @@ header.sticky {
   max-width: 100% !important; }
 
 .survey-page {
-  font-family: arial !important; }
+  font-family: 'Fauna One', serif !important; }
 
 .survey-page .page-title-container {
-  background-color: #D30097 !important; }
+  background-color: #9a41c6 !important; }
 
 .survey-body {
-  background-color: #D30097 !important; }
+  background-color: #9a41c6 !important; }
 
 .modern-browser .checked .radio-button-display, .modern-browser .checked .checkbox-button-display {
-  background: #D30097 !important;
-  border-color: #D30097 !important; }
+  background: #9a41c6 !important;
+  border-color: #9a41c6 !important; }
 
 .smcx-embed > .smcx-embed-footer, article.survey-page header.survey-page-header {
   display: none !important; }
@@ -317,7 +328,7 @@ header.sticky {
   content: "\e0f2"; }
 
 .lg-sub-html {
-  background-color: #D30097;
+  background-color: #9a41c6;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
   opacity: 0.3;
   bottom: 0;
@@ -388,7 +399,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   opacity: 1; }
 
 .lg-outer .lg-thumb-outer {
-  background-color: #D30097;
+  background-color: #9a41c6;
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -445,7 +456,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     -o-transition: border-color 0.25s ease;
     transition: border-color 0.25s ease; } }
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-  border-color: #D30097; }
+  border-color: #9a41c6; }
 
 .lg-outer .lg-thumb-item img {
   width: 100%;
