@@ -9,7 +9,7 @@
 
 
 // FUENTES
-.survey-page {
+iframe .survey-page, body#patas {
     font-family: 'Fauna One', serif !important;
 }
 // COLORES
@@ -19,11 +19,14 @@
 .survey-body {
     background-color: $color-purpura !important;
 }
-.modern-browser .checked .radio-button-display, .modern-browser .checked .checkbox-button-display {
+.modern-browser .checked .radio-button-display, .modern-browser .checked span.checkbox-button-display {
     background: $color-purpura !important;
     border-color: $color-purpura !important;
 }
-
+.survey-page .survey-page-button.next-button, .survey-page .survey-page-button.done-button {
+    background-color: $color-purpura !important;
+    color: $color-blanco !important;
+}
 // OCULTAR ELEMENTOS DE SURVEY MONKEY
 .smcx-embed>.smcx-embed-footer, article.survey-page header.survey-page-header {
 	display: none !important;

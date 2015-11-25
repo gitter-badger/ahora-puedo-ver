@@ -56,25 +56,43 @@ body {
   background: #cccccc;
 }
 header {
-  position: fixed;
-  line-height: 40px;
-  line-height: 60px;
-  display: flex;
-  justify-content: space-between;
   @include span(full);
-  color: blue;
-  background-color: transparent;
-  @include transition-property(background-color);
+  background-color: $color-purpura;
+  text-align: center;
+  padding-top: span(1);
+  padding-bottom: span(1);
+ 
+  @include breakpoint($tabletas) {
+    position: fixed;
+    line-height: 40px;
+    line-height: 60px;
+    padding-top: 0px;
+  padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+     @include transition-property(background-color);
   @include transition-duration(1s);
+  }
   h1 {
-    padding-left: span(1);
     font-family: 'Bebas kai', serif;
-    font-size: 30px;
+    padding-left: 0px;
     color: $color-blanco;
+    margin-bottom: span(1);
+    font-size: 30px;
+    @include breakpoint($tabletas) {
+    padding-left: span(1);
+  }
   }
   ul {
-    @include horizontal-list;
-    padding-right: span(1);
+    margin-top: span(1);
+    @include inline-list;
+    @include pie-clearfix;
+    @include breakpoint($tabletas){
+      padding-right: span(1);
+    }
+    
+    
   }
   a {
     color: $color-blanco;
