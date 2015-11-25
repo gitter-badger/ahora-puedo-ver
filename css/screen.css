@@ -143,6 +143,28 @@ header.sticky {
   background-color: #D30097;
   color: #fff; }
 
+.smcx-embed, .smcx-embed > .smcx-iframe-container {
+  width: 100% !important; }
+
+.survey-page {
+  max-width: 100% !important; }
+
+.survey-page {
+  font-family: arial !important; }
+
+.survey-page .page-title-container {
+  background-color: #D30097 !important; }
+
+.survey-body {
+  background-color: #D30097 !important; }
+
+.modern-browser .checked .radio-button-display, .modern-browser .checked .checkbox-button-display {
+  background: #D30097 !important;
+  border-color: #D30097 !important; }
+
+.smcx-embed > .smcx-embed-footer, article.survey-page header.survey-page-header {
+  display: none !important; }
+
 /*! lightgallery - v1.2.6 - 2015-10-07
 * http://sachinchoolur.github.io/lightGallery/
 * Copyright (c) 2015 Sachin N; Licensed Apache 2.0 */
@@ -295,7 +317,9 @@ header.sticky {
   content: "\e0f2"; }
 
 .lg-sub-html {
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: #D30097;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3;
   bottom: 0;
   color: #EEE;
   font-size: 16px;
@@ -364,7 +388,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   opacity: 1; }
 
 .lg-outer .lg-thumb-outer {
-  background-color: #0D0A0A;
+  background-color: #D30097;
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -411,7 +435,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   float: left;
   overflow: hidden;
   height: 100%;
-  border: 2px solid #FFF;
+  border: 2px solid #fff;
   border-radius: 4px;
   margin-bottom: 5px; }
 
@@ -421,7 +445,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     -o-transition: border-color 0.25s ease;
     transition: border-color 0.25s ease; } }
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-  border-color: #a90707; }
+  border-color: #D30097; }
 
 .lg-outer .lg-thumb-item img {
   width: 100%;
@@ -442,7 +466,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   bottom: 100px; }
 
 .lg-outer .lg-toogle-thumb {
-  background-color: #0D0A0A;
+  background-color: #000;
   border-radius: 2px 2px 0 0;
   color: #999;
   cursor: pointer;
@@ -828,7 +852,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   right: 0;
   bottom: 0;
   z-index: 1040;
-  background-color: #000;
+  background-color: #fff;
   opacity: 0;
   -webkit-transition: opacity 0.15s ease 0s;
   -o-transition: opacity 0.15s ease 0s;

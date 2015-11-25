@@ -1,0 +1,30 @@
+// MODULE ENCUESTAS
+
+.smcx-embed, .smcx-embed>.smcx-iframe-container {
+	width: 100% !important;
+}
+.survey-page {
+	max-width: 100% !important;
+}
+
+
+// FUENTES
+.survey-page {
+    font-family: $fuente-principal !important;
+}
+// COLORES
+.survey-page .page-title-container {
+    background-color: $color-purpura !important;
+}
+.survey-body {
+    background-color: $color-purpura !important;
+}
+.modern-browser .checked .radio-button-display, .modern-browser .checked .checkbox-button-display {
+    background: $color-purpura !important;
+    border-color: $color-purpura !important;
+}
+
+// OCULTAR ELEMENTOS DE SURVEY MONKEY
+.smcx-embed>.smcx-embed-footer, article.survey-page header.survey-page-header {
+	display: none !important;
+}
