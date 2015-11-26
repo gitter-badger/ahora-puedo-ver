@@ -2764,6 +2764,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/paleta-colores.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19782,
+		"inputAbbreviatedPath": "\/images\/paleta-colores.png",
+		"outputAbbreviatedPath": "\/images\/paleta-colores.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/portada-home.png": {
 		"fileType": 32768,
 		"ignore": 0,

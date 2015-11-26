@@ -11,6 +11,9 @@ $(document).ready(function(){
   }
   });
 
+  // modifico la encuesta de survey monkey
+  $('article.survey-page header').addClass('ocultar');
+
   // SMOOTH SCROOL 
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

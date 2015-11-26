@@ -53,13 +53,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @font-face {
   font-family: "Bebas kai";
   src: url('../fonts/BebasKai-Regular.ttf') format('truetype'); }
+.ocultar {
+  display: none !important; }
+
+/* Coolors Exported Palette - coolors.co/101912-4f0f2b-c9a98b-e2cbc3-fff6db */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
-  font-family: 'Fauna One', serif; }
+  font-family: 'Fauna One', serif;
+  color: #101912; }
 
 .main0 {
   height: 100vh;
@@ -75,12 +80,12 @@ body {
       background-size: cover; } }
   .main0 h1 {
     font-family: 'Bebas kai', serif;
-    color: #fff;
-    background-color: #000;
+    color: #fff6db;
+    background-color: #101912;
     font-size: 60px;
     display: inline; }
   .main0 h2 {
-    color: #000;
+    color: #101912;
     font-size: 30px;
     font-family: 'Bebas kai', serif; }
     @media (min-width: 450px) {
@@ -96,11 +101,11 @@ body {
     margin-bottom: 5.7971%;
     text-align: center; }
   .main1 p {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 246, 219, 0.7);
     margin-bottom: 5.7971%; }
     @media (min-width: 560px) {
       .main1 p {
-        background: rgba(255, 255, 255, 0);
+        background: rgba(255, 246, 219, 0);
         padding-left: 34.78261%;
         margin-bottom: 5.7971%;
         margin-bottom: 2.17391%; } }
@@ -119,8 +124,7 @@ body {
   padding-top: 13.04348%;
   padding-bottom: 13.04348%;
   padding-left: 5.7971%;
-  padding-right: 5.7971%;
-  background-color: #fff; }
+  padding-right: 5.7971%; }
 
 #lightgallery li {
   width: 32.20339%;
@@ -151,7 +155,7 @@ header {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background-color: #9a41c6;
+  background-color: #fff6db;
   text-align: center;
   padding-top: 5.7971%;
   padding-bottom: 5.7971%; }
@@ -175,7 +179,7 @@ header {
       transition-duration: 1s; } }
   header h1 {
     padding-left: 0px;
-    color: #fff;
+    color: #101912;
     margin-bottom: 5.7971%;
     font-size: 30px; }
     @media (min-width: 450px) {
@@ -198,14 +202,23 @@ header {
       header ul {
         padding-right: 5.7971%; } }
   header a {
-    color: #fff; }
+    color: #101912; }
 
 h1, h2, h3 {
   font-family: 'Bebas kai', serif; }
 
 header.sticky {
-  background-color: #9a41c6;
-  color: #fff; }
+  background-color: #fff6db;
+  color: #101912; }
+
+.main2 {
+  background-color: #e2cbc3; }
+
+.main3 {
+  background-color: #c9a98b; }
+
+.main4 {
+  background-color: #e2cbc3; }
 
 .smcx-embed, .smcx-embed > .smcx-iframe-container {
   width: 100% !important; }
@@ -233,6 +246,9 @@ iframe .survey-page, body#patas {
 .smcx-embed > .smcx-embed-footer, article.survey-page header.survey-page-header {
   display: none !important; }
 
+.smcx-embed {
+  border: 0px; }
+
 /*! lightgallery - v1.2.6 - 2015-10-07
 * http://sachinchoolur.github.io/lightGallery/
 * Copyright (c) 2015 Sachin N; Licensed Apache 2.0 */
@@ -255,9 +271,9 @@ iframe .survey-page, body#patas {
   -moz-osx-font-smoothing: grayscale; }
 
 .lg-actions .lg-next, .lg-actions .lg-prev {
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(226, 203, 195, 0.45);
   border-radius: 2px;
-  color: #999;
+  color: #4f0f2b;
   cursor: pointer;
   display: block;
   font-size: 22px;
@@ -360,10 +376,10 @@ iframe .survey-page, body#patas {
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.45); }
+  background-color: rgba(255, 246, 219, 0.45); }
 
 .lg-toolbar .lg-icon {
-  color: #999;
+  color: #4f0f2b;
   cursor: pointer;
   float: right;
   font-size: 24px;
@@ -376,7 +392,7 @@ iframe .survey-page, body#patas {
   outline: medium none; }
 
 .lg-toolbar .lg-icon:hover {
-  color: #FFF; }
+  color: rgba(79, 15, 43, 0.6); }
 
 .lg-toolbar .lg-close:after {
   content: "\e070"; }
@@ -385,11 +401,11 @@ iframe .survey-page, body#patas {
   content: "\e0f2"; }
 
 .lg-sub-html {
-  background-color: #9a41c6;
+  background-color: #fff6db;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
   opacity: 0.3;
   bottom: 0;
-  color: #EEE;
+  color: #101912;
   font-size: 16px;
   left: 0;
   padding: 10px 40px;
@@ -408,7 +424,7 @@ iframe .survey-page, body#patas {
   margin: 5px 0 0; }
 
 #lg-counter {
-  color: #999;
+  color: #101912;
   display: inline-block;
   font-size: 16px;
   padding-left: 20px;
@@ -456,7 +472,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   opacity: 1; }
 
 .lg-outer .lg-thumb-outer {
-  background-color: #9a41c6;
+  background-color: rgba(255, 246, 219, 0.5);
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -503,7 +519,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   float: left;
   overflow: hidden;
   height: 100%;
-  border: 2px solid #fff;
+  border: 2px solid #fff6db;
   border-radius: 4px;
   margin-bottom: 5px; }
 
@@ -513,7 +529,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     -o-transition: border-color 0.25s ease;
     transition: border-color 0.25s ease; } }
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-  border-color: #9a41c6; }
+  border-color: #c9a98b; }
 
 .lg-outer .lg-thumb-item img {
   width: 100%;
@@ -534,9 +550,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   bottom: 100px; }
 
 .lg-outer .lg-toogle-thumb {
-  background-color: #000;
+  background-color: rgba(226, 203, 195, 0.45);
   border-radius: 2px 2px 0 0;
-  color: #999;
+  color: #4f0f2b;
   cursor: pointer;
   font-size: 24px;
   height: 39px;
@@ -552,7 +568,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   content: "\e1ff"; }
 
 .lg-outer .lg-toogle-thumb:hover {
-  color: #FFF; }
+  color: #c9a98b; }
 
 .lg-outer .lg-video-cont {
   display: inline-block;
@@ -642,7 +658,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   transition: opacity 0.08s ease 0s; }
 
 .lg-progress-bar .lg-progress {
-  background-color: #a90707;
+  background-color: #e2cbc3;
   height: 5px;
   width: 0; }
 
@@ -920,7 +936,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   right: 0;
   bottom: 0;
   z-index: 1040;
-  background-color: #fff;
+  background-color: #fff6db;
   opacity: 0;
   -webkit-transition: opacity 0.15s ease 0s;
   -o-transition: opacity 0.15s ease 0s;
