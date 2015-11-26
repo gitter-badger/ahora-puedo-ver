@@ -28,19 +28,17 @@ $susy: (
 body {
   font-family: 'Fauna One', serif;
   color: $color1;
+  font-size: 100%;
 }
 .main0 {
   height: 100vh;
   @include background(image-url("portada4.jpg"));
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
   @include breakpoint($portatiles){
     background-size: contain;
+    
   }
   h1 {
     font-family: 'Bebas kai', serif;
@@ -63,9 +61,15 @@ body {
 .main1 {
   height: 100vh;
   @include background(image-url("2sintexto.jpg"));
-  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
+  background-position: left;
+  @include breakpoint($tabletas){
+    background-size: contain;
+    background-position: center;
+  }
+  
+  
   h1 {
     padding-left: span(5);
       margin-bottom: span(1);
@@ -137,27 +141,27 @@ header {
   padding-top: span(1);
   padding-bottom: span(1);
  
-  @include breakpoint($tabletas) {
-    position: fixed;
-    line-height: 40px;
-    line-height: 60px;
-    padding-top: 0px;
+  @include breakpoint($tabletas2) {
+  position: fixed;
+  line-height: 60px;
+  padding-top: 0px;
   padding-bottom: 0px;
   text-align: left;
-    display: flex;
-    justify-content: space-between;
-    background-color: transparent;
-     @include transition-property(background-color);
+ 
+  background-color: transparent;
+  @include transition-property(background-color);
   @include transition-duration(1s);
   }
   h1 {
     padding-left: 0px;
     color: rgba(79, 15, 42, 100);
     margin-bottom: span(1);
-    font-size: 30px;
+    font-size: 170%;
+    color: $color5;
     @include span(full);
-    @include breakpoint($tabletas) {
-      @include span(3);
+    @include breakpoint($tabletas2) {
+      color: $color4;
+    @include span(4);
     padding-left: span(1);
     margin-bottom: 0px;
   }
@@ -165,17 +169,23 @@ header {
   ul {
     margin-top: span(1);
     @include inline-list;
-    @include pie-clearfix;
     @include span(full);
-    @include breakpoint($tabletas){
+    text-align: center;
+    @include breakpoint($tabletas2){
+      @include span(10 last);
       padding-right: span(1);
-      @include span(last 7);
+      text-align: right;
     }
     
     
   }
   a {
-    color: rgba(79, 15, 42, 100);
+    color: $color5;
+    font-size: 94%;
+    @include breakpoint($tabletas2){
+      color: rgba(79, 15, 42, 100);
+    }
+    
   }
 
 } 
@@ -197,4 +207,7 @@ h1, h2, h3 {
 }
 .main5 {
   background-color: rgba(35, 12, 25, 100);
+}
+#main1 {
+height: auto;
 }
