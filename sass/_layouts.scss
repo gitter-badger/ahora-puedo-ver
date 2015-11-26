@@ -33,6 +33,7 @@ body {
   height: 100vh;
   @include background(image-url("portada4.jpg"));
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;

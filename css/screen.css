@@ -70,6 +70,7 @@ body {
   height: 100vh;
   background: url('../images/portada4.jpg?1448539330');
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
