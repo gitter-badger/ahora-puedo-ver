@@ -68,7 +68,7 @@ body {
 
 .main0 {
   height: 100vh;
-  background: url('../images/portada-home.png?1448476833');
+  background: url('../images/portada4.jpg?1448539330');
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -125,6 +125,12 @@ body {
   padding-bottom: 13.04348%;
   padding-left: 5.7971%;
   padding-right: 5.7971%; }
+
+h2 {
+  color: #101912;
+  font-size: 40px;
+  font-family: 'Bebas kai', serif;
+  margin-bottom: 5.7971%; }
 
 #lightgallery li {
   width: 32.20339%;

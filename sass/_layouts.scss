@@ -31,7 +31,7 @@ body {
 }
 .main0 {
   height: 100vh;
-  @include background(image-url("portada-home.png"));
+  @include background(image-url("portada4.jpg"));
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -106,6 +106,14 @@ p {
   padding-left: span(1);
   padding-right: span(1);
 }
+
+h2 {
+    color: $color1;
+    font-size: 40px;
+    font-family: 'Bebas kai', serif;
+    margin-bottom: span(1);
+    
+  }
 // GALLERY
 
 #lightgallery li {
