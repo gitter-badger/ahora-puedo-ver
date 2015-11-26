@@ -52,7 +52,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: "Bebas kai";
-  src: url('../fonts/BebasKai-Regular.ttf') format('truetype'); }
+  src: url('../fonts/BebasKai-Regular.otf?1418315724') format('opentype'); }
 .ocultar {
   display: none !important; }
 
