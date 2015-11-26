@@ -56,7 +56,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .ocultar {
   display: none !important; }
 
-/* Coolors Exported Palette - coolors.co/101912-4f0f2b-c9a98b-e2cbc3-fff6db */
+/* Coolors Exported Palette - coolors.co/230c19-444444-c9b39f-4f0f2a-ffffff */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body {
   font-family: 'Fauna One', serif;
-  color: #101912; }
+  color: #230c19; }
 
 .main0 {
   height: 100vh;
@@ -81,12 +81,12 @@ body {
       background-size: contain; } }
   .main0 h1 {
     font-family: 'Bebas kai', serif;
-    color: #fff6db;
-    background-color: #101912;
+    color: #ffffff;
+    background-color: #230c19;
     font-size: 60px;
     display: inline; }
   .main0 h2 {
-    color: #101912;
+    color: #230c19;
     font-size: 30px;
     font-family: 'Bebas kai', serif; }
     @media (min-width: 450px) {
@@ -102,11 +102,11 @@ body {
     margin-bottom: 5.7971%;
     text-align: center; }
   .main1 p {
-    background: rgba(255, 246, 219, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     margin-bottom: 5.7971%; }
     @media (min-width: 560px) {
       .main1 p {
-        background: rgba(255, 246, 219, 0);
+        background: rgba(255, 255, 255, 0);
         padding-left: 34.78261%;
         margin-bottom: 5.7971%;
         margin-bottom: 2.17391%; } }
@@ -121,14 +121,14 @@ body {
   margin-left: 0;
   margin-right: 0; }
 
-.main1, .main2, .main3, .main4 {
+.main1, .main2, .main3, .main4, .main5 {
   padding-top: 13.04348%;
   padding-bottom: 13.04348%;
   padding-left: 5.7971%;
   padding-right: 5.7971%; }
 
 h2 {
-  color: #101912;
+  color: #ffffff;
   font-size: 40px;
   font-family: 'Bebas kai', serif;
   margin-bottom: 5.7971%; }
@@ -162,7 +162,7 @@ header {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background-color: #fff6db;
+  background-color: #4f0f2a;
   text-align: center;
   padding-top: 5.7971%;
   padding-bottom: 5.7971%; }
@@ -186,7 +186,7 @@ header {
       transition-duration: 1s; } }
   header h1 {
     padding-left: 0px;
-    color: #101912;
+    color: #4f0f2a;
     margin-bottom: 5.7971%;
     font-size: 30px; }
     @media (min-width: 450px) {
@@ -209,23 +209,26 @@ header {
       header ul {
         padding-right: 5.7971%; } }
   header a {
-    color: #101912; }
+    color: #4f0f2a; }
 
 h1, h2, h3 {
   font-family: 'Bebas kai', serif; }
 
 header.sticky {
-  background-color: #fff6db;
-  color: #101912; }
+  background-color: rgba(193, 156, 129, 0.6);
+  z-index: 9; }
 
 .main2 {
-  background-color: #e2cbc3; }
+  background-color: #4f0f2a; }
 
 .main3 {
-  background-color: #c9a98b; }
+  background-color: #c9b39f; }
 
 .main4 {
-  background-color: #e2cbc3; }
+  background-color: #444444; }
+
+.main5 {
+  background-color: #230c19; }
 
 .smcx-embed, .smcx-embed > .smcx-iframe-container {
   width: 100% !important; }
@@ -256,6 +259,10 @@ iframe .survey-page, body#patas {
 .smcx-embed {
   border: 0px; }
 
+.lg-outer .lg-thumb-item {
+  border: 0px;
+  border-radius: 0px; }
+
 /*! lightgallery - v1.2.6 - 2015-10-07
 * http://sachinchoolur.github.io/lightGallery/
 * Copyright (c) 2015 Sachin N; Licensed Apache 2.0 */
@@ -280,7 +287,7 @@ iframe .survey-page, body#patas {
 .lg-actions .lg-next, .lg-actions .lg-prev {
   background-color: rgba(226, 203, 195, 0.45);
   border-radius: 2px;
-  color: #4f0f2b;
+  color: #444444;
   cursor: pointer;
   display: block;
   font-size: 22px;
@@ -386,7 +393,7 @@ iframe .survey-page, body#patas {
   background-color: rgba(255, 246, 219, 0.45); }
 
 .lg-toolbar .lg-icon {
-  color: #4f0f2b;
+  color: #444444;
   cursor: pointer;
   float: right;
   font-size: 24px;
@@ -399,7 +406,7 @@ iframe .survey-page, body#patas {
   outline: medium none; }
 
 .lg-toolbar .lg-icon:hover {
-  color: rgba(79, 15, 43, 0.6); }
+  color: rgba(68, 68, 68, 0.6); }
 
 .lg-toolbar .lg-close:after {
   content: "\e070"; }
@@ -408,11 +415,11 @@ iframe .survey-page, body#patas {
   content: "\e0f2"; }
 
 .lg-sub-html {
-  background-color: #fff6db;
+  background-color: #ffffff;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
   opacity: 0.3;
   bottom: 0;
-  color: #101912;
+  color: #230c19;
   font-size: 16px;
   left: 0;
   padding: 10px 40px;
@@ -431,7 +438,7 @@ iframe .survey-page, body#patas {
   margin: 5px 0 0; }
 
 #lg-counter {
-  color: #101912;
+  color: #230c19;
   display: inline-block;
   font-size: 16px;
   padding-left: 20px;
@@ -526,7 +533,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   float: left;
   overflow: hidden;
   height: 100%;
-  border: 2px solid #fff6db;
+  border: 2px solid #ffffff;
   border-radius: 4px;
   margin-bottom: 5px; }
 
@@ -536,7 +543,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     -o-transition: border-color 0.25s ease;
     transition: border-color 0.25s ease; } }
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-  border-color: #c9a98b; }
+  border-color: #c9b39f; }
 
 .lg-outer .lg-thumb-item img {
   width: 100%;
@@ -557,9 +564,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   bottom: 100px; }
 
 .lg-outer .lg-toogle-thumb {
-  background-color: rgba(226, 203, 195, 0.45);
+  background-color: rgba(79, 15, 42, 0.45);
   border-radius: 2px 2px 0 0;
-  color: #4f0f2b;
+  color: #444444;
   cursor: pointer;
   font-size: 24px;
   height: 39px;
@@ -575,7 +582,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   content: "\e1ff"; }
 
 .lg-outer .lg-toogle-thumb:hover {
-  color: #c9a98b; }
+  color: #c9b39f; }
 
 .lg-outer .lg-video-cont {
   display: inline-block;
@@ -665,7 +672,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   transition: opacity 0.08s ease 0s; }
 
 .lg-progress-bar .lg-progress {
-  background-color: #e2cbc3;
+  background-color: #4f0f2a;
   height: 5px;
   width: 0; }
 
@@ -943,7 +950,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   right: 0;
   bottom: 0;
   z-index: 1040;
-  background-color: #fff6db;
+  background-color: #ffffff;
   opacity: 0;
   -webkit-transition: opacity 0.15s ease 0s;
   -o-transition: opacity 0.15s ease 0s;

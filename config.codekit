@@ -2861,6 +2861,22 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/palette-final.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/palette-final.sass",
+		"outputAbbreviatedPath": "\/css\/palette-final.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/README.html": {
 		"fileType": 8192,
 		"ignore": 1,

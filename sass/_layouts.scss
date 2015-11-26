@@ -101,7 +101,7 @@ p {
   @include span(full);
   
 }
-.main1, .main2, .main3, .main4 {
+.main1, .main2, .main3, .main4, .main5 {
   padding-top: span(2);
   padding-bottom: span(2);
   padding-left: span(1);
@@ -109,7 +109,7 @@ p {
 }
 
 h2 {
-    color: $color1;
+    color: $color5;
     font-size: 40px;
     font-family: 'Bebas kai', serif;
     margin-bottom: span(1);
@@ -130,7 +130,7 @@ h2 {
 }
 header {
   @include span(full);
-  background-color: $color5;
+  background-color: $color4;
   text-align: center;
   padding-top: span(1);
   padding-bottom: span(1);
@@ -149,7 +149,7 @@ header {
   }
   h1 {
     padding-left: 0px;
-    color: $color1;
+    color: rgba(79, 15, 42, 100);
     margin-bottom: span(1);
     font-size: 30px;
     @include breakpoint($tabletas) {
@@ -168,7 +168,7 @@ header {
     
   }
   a {
-    color: rgba(16, 25, 18, 90);
+    color: rgba(79, 15, 42, 100);
   }
 
 } 
@@ -176,15 +176,18 @@ h1, h2, h3 {
   font-family: 'Bebas kai', serif;
 }
   header.sticky {
-    background-color: $color5;
-    color: $color1;
+    background-color: rgba(193, 156, 129, 0.6);
+    z-index: 9;
   }
 .main2 {
-  background-color: rgba(226, 203, 195, 100);
+  background-color: rgba(79, 15, 42, 100);
 }
 .main3 {
-  background-color: rgba(201, 169, 139, 100);
+  background-color: rgba(201, 179, 159, 100);
 }
 .main4 {
-  background-color: $color4;
+  background-color: rgba(68, 68, 68, 100);
+}
+.main5 {
+  background-color: rgba(35, 12, 25, 100);
 }
