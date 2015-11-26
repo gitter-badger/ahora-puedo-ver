@@ -78,7 +78,7 @@ body {
   flex-direction: column; }
   @media (min-width: 900px) {
     .main0 {
-      background-size: cover; } }
+      background-size: contain; } }
   .main0 h1 {
     font-family: 'Bebas kai', serif;
     color: #fff6db;

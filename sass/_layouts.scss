@@ -40,7 +40,7 @@ body {
   justify-content: flex-end;
   flex-direction: column;
   @include breakpoint($portatiles){
-    background-size: cover;
+    background-size: contain;
   }
   h1 {
     font-family: 'Bebas kai', serif;
