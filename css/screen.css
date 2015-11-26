@@ -96,7 +96,9 @@ body {
 .main1 {
   height: 100vh;
   background: url('../images/2sintexto.jpg?1448466045');
-  background-size: cover; }
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
   .main1 h1 {
     padding-left: 34.78261%;
     margin-bottom: 5.7971%;
@@ -173,6 +175,7 @@ header {
       line-height: 60px;
       padding-top: 0px;
       padding-bottom: 0px;
+      text-align: left;
       display: flex;
       justify-content: space-between;
       background-color: transparent;
@@ -188,15 +191,26 @@ header {
     padding-left: 0px;
     color: #4f0f2a;
     margin-bottom: 5.7971%;
-    font-size: 30px; }
+    font-size: 30px;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
     @media (min-width: 450px) {
       header h1 {
+        width: 20.28986%;
+        float: left;
+        margin-right: 1.44928%;
         padding-left: 5.7971%;
         margin-bottom: 0px; } }
   header ul {
     margin-top: 5.7971%;
     list-style-type: none;
-    *zoom: 1; }
+    *zoom: 1;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
     header ul, header ul li {
       margin: 0;
       padding: 0;
@@ -207,7 +221,10 @@ header {
       clear: both; }
     @media (min-width: 450px) {
       header ul {
-        padding-right: 5.7971%; } }
+        padding-right: 5.7971%;
+        width: 49.27536%;
+        float: right;
+        margin-right: 0; } }
   header a {
     color: #4f0f2a; }
 

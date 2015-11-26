@@ -63,7 +63,9 @@ body {
 .main1 {
   height: 100vh;
   @include background(image-url("2sintexto.jpg"));
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   h1 {
     padding-left: span(5);
       margin-bottom: span(1);
@@ -141,6 +143,7 @@ header {
     line-height: 60px;
     padding-top: 0px;
   padding-bottom: 0px;
+  text-align: left;
     display: flex;
     justify-content: space-between;
     background-color: transparent;
@@ -152,7 +155,9 @@ header {
     color: rgba(79, 15, 42, 100);
     margin-bottom: span(1);
     font-size: 30px;
+    @include span(full);
     @include breakpoint($tabletas) {
+      @include span(3);
     padding-left: span(1);
     margin-bottom: 0px;
   }
@@ -161,8 +166,10 @@ header {
     margin-top: span(1);
     @include inline-list;
     @include pie-clearfix;
+    @include span(full);
     @include breakpoint($tabletas){
       padding-right: span(1);
+      @include span(last 7);
     }
     
     
