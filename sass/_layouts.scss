@@ -63,7 +63,7 @@ body {
   @include background(image-url("2sintexto.jpg"));
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
   @include breakpoint($portatiles){
     background-size: contain;
     background-position: center;
@@ -220,7 +220,7 @@ h1, h2, h3 {
   }
 }
 .main3 {
-  background-color: rgba(201, 179, 159, 100);
+  background-color: rgba(255, 255, 255, 100);
 }
 .main4 {
   height: 100vh;
@@ -235,7 +235,4 @@ h1, h2, h3 {
 }
 .main5 {
   background-color: $color5;
-}
-#main1 {
-height: auto;
 }

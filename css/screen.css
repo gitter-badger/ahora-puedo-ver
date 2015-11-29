@@ -57,6 +57,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: none !important; }
 
 /* Coolors Exported Palette - coolors.co/230c19-444444-c9b39f-4f0f2a-ffffff */
+.ocultar {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize; }
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -95,7 +101,7 @@ body {
   background: url('../images/2sintexto.jpg?1448466045');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left; }
+  background-position: center; }
   @media (min-width: 900px) {
     .main1 {
       background-size: contain;
@@ -264,7 +270,7 @@ header.sticky {
     color: #4f0f2a; }
 
 .main3 {
-  background-color: #c9b39f; }
+  background-color: white; }
 
 .main4 {
   height: 100vh;
@@ -279,9 +285,6 @@ header.sticky {
 
 .main5 {
   background-color: #ffffff; }
-
-#main1 {
-  height: auto; }
 
 .smcx-embed, .smcx-embed > .smcx-iframe-container {
   width: 100% !important; }

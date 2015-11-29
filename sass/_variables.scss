@@ -24,3 +24,8 @@ $pantallones: 1200px;
 $fuente-peque: 14px;
 $fuente-grande: 16px;
 $fuente-x-grande: 18px;
+// GENERALES
+
+.ocultar {
+	@include hide-text(left);
+}
