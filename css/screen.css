@@ -177,6 +177,9 @@ h2 {
   background: #cccccc; }
 
 header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   float: left;
   margin-left: 0;
@@ -185,6 +188,9 @@ header {
   text-align: center;
   padding-top: 5.7971%;
   padding-bottom: 5.7971%; }
+  @media (min-width: 900px) {
+    header {
+      background-size: contain; } }
   @media (min-width: 560px) {
     header {
       position: fixed;
@@ -261,18 +267,17 @@ header.sticky {
   background-color: #c9b39f; }
 
 .main4 {
-  background-color: #444444;
+  height: 100vh;
   background: url('../images/23.jpg?1448800162');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-  @media (min-width: 560px) {
+  @media (min-width: 900px) {
     .main4 {
-      background-size: contain;
-      background-position: center; } }
+      background-size: contain; } }
 
 .main5 {
-  background-color: #230c19; }
+  background-color: #ffffff; }
 
 #main1 {
   height: auto; }
