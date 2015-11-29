@@ -23,7 +23,7 @@
 }
 
 .lg-actions .lg-next, .lg-actions .lg-prev {
-  background-color: rgba(226, 203, 195, 0.45);
+  background-color: rgba(79, 15, 42, .45);
   border-radius: 2px;
   color: $color2;
   cursor: pointer;
@@ -165,7 +165,7 @@
   background-color: rgba(255, 246, 219, 0.45);
 }
 .lg-toolbar .lg-icon {
-  color: $color2;
+  color: $color4;
   cursor: pointer;
   float: right;
   font-size: 24px;
@@ -343,7 +343,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   bottom: 100px;
 }
 .lg-outer .lg-toogle-thumb {
-  background-color: rgba($color4, 0.45); 
+  background-color: rgba(79, 15, 42, 0.45); 
   border-radius: 2px 2px 0 0;
   color: $color2;
   cursor: pointer;
@@ -361,7 +361,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   content: "\e1ff";
 }
 .lg-outer .lg-toogle-thumb:hover {
-  color: $color3;
+  color: $color5;
 }
 
 .lg-outer .lg-video-cont {

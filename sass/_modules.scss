@@ -13,16 +13,7 @@ iframe .survey-page, body#patas {
     font-family: 'Fauna One', serif !important;
 }
 // COLORES
-.survey-page .page-title-container {
-    background-color: $color-purpura !important;
-}
-.survey-body {
-    background-color: $color-purpura !important;
-}
-.modern-browser .checked .radio-button-display, .modern-browser .checked span.checkbox-button-display {
-    background: $color-purpura !important;
-    border-color: $color-purpura !important;
-}
+
 .survey-page .survey-page-button.next-button, #patas .survey-page .survey-page-button.done-button {
     background-color: $color4 !important;
     color: $color5 !important;
@@ -37,4 +28,9 @@ iframe .survey-page, body#patas {
 .lg-outer .lg-thumb-item {
 	border: 0px;
 	border-radius: 0px;
+}
+
+a {
+	@include link-colors(red, green, blue, lime, #cc0);
+	@include hover-link;
 }
