@@ -98,7 +98,7 @@ body {
 
 .main1 {
   height: 100vh;
-  background: url('../images/2sintexto.jpg?1448466045');
+  background: url('../images/1.jpg?1448800162');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -131,8 +131,8 @@ body {
   margin-right: 0; }
 
 .main2, .main3, .main4, .main5 {
-  padding-top: 13.04348%;
-  padding-bottom: 13.04348%;
+  padding-top: 5.7971%;
+  padding-bottom: 5.7971%;
   padding-left: 5.7971%;
   padding-right: 5.7971%; }
 
@@ -218,7 +218,7 @@ header {
     color: #4f0f2a;
     margin-bottom: 5.7971%;
     font-size: 170%;
-    color: #ffffff;
+    color: #4f0f2a;
     width: 100%;
     float: left;
     margin-left: 0;
@@ -249,13 +249,31 @@ header {
         float: right;
         margin-right: 0;
         padding-right: 5.7971%;
-        text-align: right; } }
+        text-align: right; }
+        header ul li {
+          padding-left: 10px; } }
   header a {
-    color: #ffffff;
+    color: #4f0f2a;
     font-size: 94%; }
+    header a:visited {
+      color: #200611; }
+    header a:focus {
+      color: #18050d; }
+    header a:hover {
+      color: #370b1d; }
+    header a:active {
+      color: #470e26; }
     @media (min-width: 560px) {
       header a {
-        color: #4f0f2a; } }
+        color: #4f0f2a; }
+        header a:visited {
+          color: #200611; }
+        header a:focus {
+          color: #18050d; }
+        header a:hover {
+          color: #370b1d; }
+        header a:active {
+          color: #470e26; } }
 
 h1, h2, h3 {
   font-family: 'Bebas kai', serif; }
@@ -264,9 +282,9 @@ header.sticky {
   background-color: rgba(193, 156, 129, 0.6);
   z-index: 9; }
 
-.main2 {
+.main2, .main3 {
   background-color: white; }
-  .main2 h2 {
+  .main2 h2, .main3 h2 {
     color: #4f0f2a; }
 
 .main3 {
@@ -295,16 +313,6 @@ header.sticky {
 iframe .survey-page, body#patas {
   font-family: 'Fauna One', serif !important; }
 
-.survey-page .page-title-container {
-  background-color: #9a41c6 !important; }
-
-.survey-body {
-  background-color: #9a41c6 !important; }
-
-.modern-browser .checked .radio-button-display, .modern-browser .checked span.checkbox-button-display {
-  background: #9a41c6 !important;
-  border-color: #9a41c6 !important; }
-
 .survey-page .survey-page-button.next-button, #patas .survey-page .survey-page-button.done-button {
   background-color: #4f0f2a !important;
   color: #ffffff !important; }
@@ -318,6 +326,20 @@ iframe .survey-page, body#patas {
 .lg-outer .lg-thumb-item {
   border: 0px;
   border-radius: 0px; }
+
+a {
+  color: red;
+  text-decoration: none; }
+  a:visited {
+    color: lime; }
+  a:focus {
+    color: #cc0; }
+  a:hover {
+    color: green; }
+  a:active {
+    color: blue; }
+  a:hover, a:focus {
+    text-decoration: underline; }
 
 /*! lightgallery - v1.2.6 - 2015-10-07
 * http://sachinchoolur.github.io/lightGallery/
@@ -341,7 +363,7 @@ iframe .survey-page, body#patas {
   -moz-osx-font-smoothing: grayscale; }
 
 .lg-actions .lg-next, .lg-actions .lg-prev {
-  background-color: rgba(226, 203, 195, 0.45);
+  background-color: rgba(79, 15, 42, 0.45);
   border-radius: 2px;
   color: #444444;
   cursor: pointer;
@@ -449,7 +471,7 @@ iframe .survey-page, body#patas {
   background-color: rgba(255, 246, 219, 0.45); }
 
 .lg-toolbar .lg-icon {
-  color: #444444;
+  color: #4f0f2a;
   cursor: pointer;
   float: right;
   font-size: 24px;
@@ -638,7 +660,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   content: "\e1ff"; }
 
 .lg-outer .lg-toogle-thumb:hover {
-  color: #c9b39f; }
+  color: #ffffff; }
 
 .lg-outer .lg-video-cont {
   display: inline-block;
@@ -943,7 +965,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   white-space: nowrap; }
 
 .lg-outer .lg-item {
-  background: url(../img/loading.gif) no-repeat scroll center center transparent;
+  background: url(../images/loading.gif) no-repeat scroll center center transparent;
   display: none !important; }
 
 .lg-outer.lg-css3 .lg-prev-slide, .lg-outer.lg-css3 .lg-current, .lg-outer.lg-css3 .lg-next-slide {
