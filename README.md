@@ -7,7 +7,7 @@
 
 
 
-## Cuando me quieras decir algo sobre el proyecto, sobre el cambiar alguna imagen, algún dato o lo que sea, utiliza el "issue" para que me sea más fácil a mi a través de éste enlace.
+## Cuando me quieras decir algo sobre el proyecto, sobre el cambiar alguna imagen, algún dato o lo que sea, utiliza el "issue" para que me sea más fácil a mi a través de éste enlace..
 
 Por ejemplo, si me quieres decir hacer alguna indicación sobre que no funciona un enlace, o que quieres añadir alguna nueva funcionalidad al futuro porfolio, con este sistema quedará reflejado y yo sabré donde buscar y tener localizados los cambios. Una especie de registro de actividad del proyecto, para que yo pueda hacer un seguimiento real de los cambios o sugerencias que todo proyecto trae consigo. Toda esta información hará más fácil después la gestión del contenido.
 [crear un issue.](https://github.com/primerproyecto/ahora-puedo-ver/issues/new)
