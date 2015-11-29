@@ -96,7 +96,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left; }
-  @media (min-width: 450px) {
+  @media (min-width: 900px) {
     .main1 {
       background-size: contain;
       background-position: center; } }
@@ -124,7 +124,7 @@ body {
   margin-left: 0;
   margin-right: 0; }
 
-.main1, .main2, .main3, .main4, .main5 {
+.main2, .main3, .main4, .main5 {
   padding-top: 13.04348%;
   padding-bottom: 13.04348%;
   padding-left: 5.7971%;
