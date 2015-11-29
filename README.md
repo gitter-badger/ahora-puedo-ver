@@ -20,7 +20,9 @@ Usaremos formkeep para crear el formulario.
 
 ## Colores.
 
-Para selecionar colores, utiliza esta herramienta que te paso para [crear la paleta.](https://coolors.co). Es un poco más lioso quizás para ti, pero a mi me ayuda a gestionar todo. Creas uno y me lo mandas a través de un "issue" :-) ...tu si que eres "issue"
+Los colores para el catálogo están en esta paleta
+
+[Los colores para el catálogo están en esta paleta](https://coolors.co/app/101912-4f0f2b-c9b39f-e2cbc3-fff6db)
 
 ## Fuentes.
 También tendrás en algún momento el tipo de letra que te gustaría emplear para el catálogo. Echale un vistazo a las fuentes de google y me cuentas (utiliza lo de "issue") [enlace a las fuentes de google .](https://www.google.com/fonts)

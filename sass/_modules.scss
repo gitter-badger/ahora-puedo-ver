@@ -23,9 +23,9 @@ iframe .survey-page, body#patas {
     background: $color-purpura !important;
     border-color: $color-purpura !important;
 }
-.survey-page .survey-page-button.next-button, .survey-page .survey-page-button.done-button {
-    background-color: $color-purpura !important;
-    color: $color-blanco !important;
+.survey-page .survey-page-button.next-button, #patas .survey-page .survey-page-button.done-button {
+    background-color: $color4 !important;
+    color: $color5 !important;
 }
 // OCULTAR ELEMENTOS DE SURVEY MONKEY
 .smcx-embed>.smcx-embed-footer, article.survey-page header.survey-page-header {
