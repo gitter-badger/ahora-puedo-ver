@@ -240,5 +240,21 @@ h1, h2, h3 {
   }
 }
 .main5 {
+  .high {
+      @include replace-text-with-dimensions('alta.png');
+      display: block;
+    }
+    .baja {
+      @include replace-text-with-dimensions('baja.png');
+      display: block;
+    }
   background-color: $color5;
+  div {
+    @include span(7);
+    &:last-child {
+      @include span(7 last);
+
+    }
+    
+  }
 }

@@ -2795,6 +2795,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/alta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91481,
+		"inputAbbreviatedPath": "\/images\/alta.png",
+		"outputAbbreviatedPath": "\/images\/alta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/baja.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59926,
+		"inputAbbreviatedPath": "\/images\/baja.png",
+		"outputAbbreviatedPath": "\/images\/baja.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/definitivas\/0.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3158,6 +3180,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/Slice 1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162121,
+		"inputAbbreviatedPath": "\/images\/Slice 1.png",
+		"outputAbbreviatedPath": "\/images\/Slice 1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3215,6 +3248,28 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/pdf\/alta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91481,
+		"inputAbbreviatedPath": "\/pdf\/alta.png",
+		"outputAbbreviatedPath": "\/pdf\/alta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pdf\/baja.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59926,
+		"inputAbbreviatedPath": "\/pdf\/baja.png",
+		"outputAbbreviatedPath": "\/pdf\/baja.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/README.html": {
 		"fileType": 8192,

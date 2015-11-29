@@ -306,6 +306,36 @@ header.sticky {
 
 .main5 {
   background-color: #ffffff; }
+  .main5 .high {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: capitalize;
+    background-image: url('../images/alta.png?1448829238');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 800px;
+    height: 533px;
+    display: block; }
+  .main5 .baja {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: capitalize;
+    background-image: url('../images/baja.png?1448829238');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 800px;
+    height: 533px;
+    display: block; }
+  .main5 div {
+    width: 49.27536%;
+    float: left;
+    margin-right: 1.44928%; }
+    .main5 div:last-child {
+      width: 49.27536%;
+      float: right;
+      margin-right: 0; }
 
 .smcx-embed, .smcx-embed > .smcx-iframe-container {
   width: 100% !important; }
