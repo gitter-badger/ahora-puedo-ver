@@ -205,6 +205,7 @@ header {
   a {
     @include link-colors($color4, shade($color4, 30%), shade($color4, 10%), shade($color4, 60%), shade($color4, 70%));
     font-size: 94%;
+    font-family: 'Bebas kai', serif;
     @include breakpoint($tabletas2){
       @include link-colors($color4, shade($color4, 30%), shade($color4, 10%), shade($color4, 60%), shade($color4, 70%));
     }
