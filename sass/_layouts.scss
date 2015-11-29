@@ -207,12 +207,23 @@ h1, h2, h3 {
   }
 .main2 {
   background-color: rgba(255, 255, 255, 100);
+  h2 {
+    color: $color4;
+  }
 }
 .main3 {
   background-color: rgba(201, 179, 159, 100);
 }
 .main4 {
   background-color: rgba(68, 68, 68, 100);
+  @include background(image-url("23.jpg"));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include breakpoint($tabletas2){
+    background-size: contain;
+    background-position: center;
+  }
 }
 .main5 {
   background-color: rgba(35, 12, 25, 100);

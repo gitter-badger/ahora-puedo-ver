@@ -254,12 +254,22 @@ header.sticky {
 
 .main2 {
   background-color: white; }
+  .main2 h2 {
+    color: #4f0f2a; }
 
 .main3 {
   background-color: #c9b39f; }
 
 .main4 {
-  background-color: #444444; }
+  background-color: #444444;
+  background: url('../images/23.jpg?1448800162');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  @media (min-width: 560px) {
+    .main4 {
+      background-size: contain;
+      background-position: center; } }
 
 .main5 {
   background-color: #230c19; }
