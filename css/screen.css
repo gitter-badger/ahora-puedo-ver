@@ -267,14 +267,25 @@ header.sticky {
   background-color: #c9b39f; }
 
 .main4 {
+<<<<<<< HEAD
   height: 100vh;
+=======
+  background-color: #444444;
+>>>>>>> 409fc7ed7cf55f479904844273a5255e641ea45b
   background: url('../images/23.jpg?1448800162');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
+<<<<<<< HEAD
   @media (min-width: 900px) {
     .main4 {
       background-size: contain; } }
+=======
+  @media (min-width: 560px) {
+    .main4 {
+      background-size: contain;
+      background-position: center; } }
+>>>>>>> 409fc7ed7cf55f479904844273a5255e641ea45b
 
 .main5 {
   background-color: #ffffff; }

@@ -223,14 +223,24 @@ h1, h2, h3 {
   background-color: rgba(201, 179, 159, 100);
 }
 .main4 {
+<<<<<<< HEAD
   height: 100vh;
+=======
+  background-color: rgba(68, 68, 68, 100);
+>>>>>>> 409fc7ed7cf55f479904844273a5255e641ea45b
   @include background(image-url("23.jpg"));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   @include breakpoint($portatiles){
     background-size: contain;
     
+=======
+  @include breakpoint($tabletas2){
+    background-size: contain;
+    background-position: center;
+>>>>>>> 409fc7ed7cf55f479904844273a5255e641ea45b
   }
 }
 .main5 {
