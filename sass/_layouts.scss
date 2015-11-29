@@ -29,6 +29,9 @@ body {
   font-family: 'Fauna One', serif;
   color: $color1;
   font-size: 100%;
+  @include background(image-url("loading.gif"));
+  background-position: 20% center;
+  background-repeat: no-repeat;
 }
 .main0 {
   height: 100vh;
@@ -228,7 +231,7 @@ h1, h2, h3 {
 .main4 {
   height: 100vh;
   @include background(image-url("23.jpg"));
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   @include breakpoint($tabletas2){

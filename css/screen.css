@@ -71,7 +71,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font-family: 'Fauna One', serif;
   color: #230c19;
-  font-size: 100%; }
+  font-size: 100%;
+  background: url('../images/loading.gif?1448820324');
+  background-position: 20% center;
+  background-repeat: no-repeat; }
 
 .main0 {
   height: 100vh;
@@ -293,7 +296,7 @@ header.sticky {
 .main4 {
   height: 100vh;
   background: url('../images/23.jpg?1448800162');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat; }
   @media (min-width: 560px) {
@@ -363,9 +366,9 @@ a {
   -moz-osx-font-smoothing: grayscale; }
 
 .lg-actions .lg-next, .lg-actions .lg-prev {
-  background-color: rgba(79, 15, 42, 0.45);
+  background-color: rgba(255, 246, 219, 0.45);
   border-radius: 2px;
-  color: #444444;
+  color: #4f0f2a;
   cursor: pointer;
   display: block;
   font-size: 22px;
@@ -380,7 +383,7 @@ a {
   opacity: 0.5; }
 
 .lg-actions .lg-next:hover, .lg-actions .lg-prev:hover {
-  color: #FFF; }
+  color: rgba(68, 68, 68, 0.6); }
 
 .lg-actions .lg-next {
   right: 20px; }
@@ -642,9 +645,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   bottom: 100px; }
 
 .lg-outer .lg-toogle-thumb {
-  background-color: rgba(79, 15, 42, 0.45);
+  background-color: rgba(255, 246, 219, 0.45);
   border-radius: 2px 2px 0 0;
-  color: #444444;
+  color: #4f0f2a;
   cursor: pointer;
   font-size: 24px;
   height: 39px;
@@ -660,7 +663,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   content: "\e1ff"; }
 
 .lg-outer .lg-toogle-thumb:hover {
-  color: #ffffff; }
+  color: rgba(68, 68, 68, 0.6); }
 
 .lg-outer .lg-video-cont {
   display: inline-block;
@@ -965,7 +968,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   white-space: nowrap; }
 
 .lg-outer .lg-item {
-  background: url(../img/loading.gif) no-repeat scroll center center transparent;
+  background: url("../images/loading.gif") no-repeat scroll center center transparent;
   display: none !important; }
 
 .lg-outer.lg-css3 .lg-prev-slide, .lg-outer.lg-css3 .lg-current, .lg-outer.lg-css3 .lg-next-slide {
