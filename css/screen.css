@@ -71,7 +71,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font-family: 'Fauna One', serif;
   color: #230c19;
-  font-size: 100%; }
+  font-size: 100%;
+  background: url('../images/loading.gif?1448820324');
+  background-position: 20% center;
+  background-repeat: no-repeat; }
 
 .main0 {
   height: 100vh;
@@ -293,7 +296,7 @@ header.sticky {
 .main4 {
   height: 100vh;
   background: url('../images/23.jpg?1448800162');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat; }
   @media (min-width: 560px) {
