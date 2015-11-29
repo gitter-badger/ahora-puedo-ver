@@ -137,25 +137,41 @@ h2 {
   margin-bottom: 5.7971%; }
 
 #lightgallery li {
-  width: 32.20339%;
+  width: 49.15254%;
   float: left;
   margin-bottom: 1.69492%; }
-  #lightgallery li:nth-child(3n + 1) {
+  #lightgallery li:nth-child(2n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0; }
-  #lightgallery li:nth-child(3n + 2) {
-    margin-left: 33.89831%;
+  #lightgallery li:nth-child(2n + 2) {
+    margin-left: 50.84746%;
     margin-right: -100%;
     clear: none; }
-  #lightgallery li:nth-child(3n + 3) {
-    margin-left: 67.79661%;
-    margin-right: -100%;
-    clear: none; }
+  @media (min-width: 560px) {
+    #lightgallery li {
+      width: 32.20339%;
+      float: left; }
+      #lightgallery li:nth-child(3n + 1) {
+        margin-left: 0;
+        margin-right: -100%;
+        clear: both;
+        margin-left: 0; }
+      #lightgallery li:nth-child(3n + 2) {
+        margin-left: 33.89831%;
+        margin-right: -100%;
+        clear: none; }
+      #lightgallery li:nth-child(3n + 3) {
+        margin-left: 67.79661%;
+        margin-right: -100%;
+        clear: none; } }
   #lightgallery li img {
     width: 100%;
     height: auto; }
+    #lightgallery li img:hover {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+      opacity: 0.8; }
 
 #footer {
   background: #cccccc; }
@@ -165,7 +181,7 @@ header {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background-color: #4f0f2a;
+  background-color: transparent;
   text-align: center;
   padding-top: 5.7971%;
   padding-bottom: 5.7971%; }
@@ -270,9 +286,9 @@ iframe .survey-page, body#patas {
   background: #9a41c6 !important;
   border-color: #9a41c6 !important; }
 
-.survey-page .survey-page-button.next-button, .survey-page .survey-page-button.done-button {
-  background-color: #9a41c6 !important;
-  color: #fff !important; }
+.survey-page .survey-page-button.next-button, #patas .survey-page .survey-page-button.done-button {
+  background-color: #4f0f2a !important;
+  color: #ffffff !important; }
 
 .smcx-embed > .smcx-embed-footer, article.survey-page header.survey-page-header {
   display: none !important; }

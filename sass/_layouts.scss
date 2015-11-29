@@ -124,11 +124,20 @@ h2 {
 // GALLERY
 
 #lightgallery li {
-  @include gallery(4 of 12);
+  @include gallery(6 of 12);
   margin-bottom: gutters(12);
+  @include breakpoint($tabletas2){
+ @include gallery(4 of 12);
+  }
+ 
+  
   img {
     width: 100%;
     height: auto;
+    &:hover{
+      @include opacity(.8);
+    }
+
   }
 }
 #footer {
@@ -136,7 +145,7 @@ h2 {
 }
 header {
   @include span(full);
-  background-color: $color4;
+  background-color: transparent;
   text-align: center;
   padding-top: span(1);
   padding-bottom: span(1);
@@ -197,7 +206,7 @@ h1, h2, h3 {
     z-index: 9;
   }
 .main2 {
-  background-color: rgba(79, 15, 42, 100);
+  background-color: rgba(255, 255, 255, 100);
 }
 .main3 {
   background-color: rgba(201, 179, 159, 100);
