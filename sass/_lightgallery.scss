@@ -23,9 +23,9 @@
 }
 
 .lg-actions .lg-next, .lg-actions .lg-prev {
-  background-color: rgba(79, 15, 42, .45);
+  background-color: rgba(255, 246, 219, 0.45);
   border-radius: 2px;
-  color: $color2;
+  color: $color4;
   cursor: pointer;
   display: block;
   font-size: 22px;
@@ -40,7 +40,7 @@
   opacity: 0.5;
 }
 .lg-actions .lg-next:hover, .lg-actions .lg-prev:hover {
-  color: #FFF;
+  color: rgba($color2, .6);
 }
 .lg-actions .lg-next {
   right: 20px;
@@ -343,9 +343,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   bottom: 100px;
 }
 .lg-outer .lg-toogle-thumb {
-  background-color: rgba(79, 15, 42, 0.45); 
+  background-color: rgba(255, 246, 219, 0.45); 
   border-radius: 2px 2px 0 0;
-  color: $color2;
+  color: $color4;
   cursor: pointer;
   font-size: 24px;
   height: 39px;
@@ -361,7 +361,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   content: "\e1ff";
 }
 .lg-outer .lg-toogle-thumb:hover {
-  color: $color5;
+  color: rgba(68, 68, 68, 0.6);
 }
 
 .lg-outer .lg-video-cont {
