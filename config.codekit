@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19076",
+"creatorBuild": "19102",
 "files": {
 	"\/bower_components\/compass-breakpoint\/bower.json": {
 		"fileType": 524288,
@@ -426,7 +426,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
@@ -1621,7 +1621,7 @@
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lg-fullscreen.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-fullscreen.js",
 		"outputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/min\/lg-fullscreen-min.js",
@@ -1643,7 +1643,7 @@
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lg-hash.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-hash.js",
 		"outputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/min\/lg-hash-min.js",
@@ -1665,7 +1665,7 @@
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lg-pager.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-pager.js",
 		"outputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/min\/lg-pager-min.js",
@@ -1687,7 +1687,7 @@
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lg-thumbnail.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-thumbnail.js",
 		"outputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/min\/lg-thumbnail-min.js",
@@ -1731,7 +1731,7 @@
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lg-zoom.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-zoom.js",
 		"outputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/min\/lg-zoom-min.js",
@@ -1775,7 +1775,7 @@
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lightgallery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
 		"outputAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/min\/lightgallery-min.js",
@@ -1808,7 +1808,7 @@
 		},
 	"\/bower_components\/lightgallery\/lib\/jquery.mousewheel.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/lightgallery\/lib\/jquery.mousewheel.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/lightgallery\/lib\/min\/jquery.mousewheel.min-min.js",
@@ -2452,6 +2452,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/_modules.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/_modules.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -2749,6 +2758,17 @@
 		"initialSize": 467280,
 		"inputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioin2.jpg",
 		"outputAbbreviatedPath": "\/imagenes-previas\/prologocoleccioin2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 835964,
+		"inputAbbreviatedPath": "\/images\/1.jpg",
+		"outputAbbreviatedPath": "\/images\/1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3380,6 +3400,56 @@
 	],
 "lastSavedByUser": "unbiciclista",
 "manualImportLinks": {
+	"\/javascripts\/custon.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-fullscreen.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-thumbnail.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-zoom.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-hash.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lg-pager.js",
+			"position": 6,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/lib\/jquery.mousewheel.min.js",
+			"position": 7,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
@@ -3478,8 +3548,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -3488,6 +3566,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {
