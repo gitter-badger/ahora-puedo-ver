@@ -143,8 +143,21 @@ h2 {
 
   }
 }
-#footer {
-  background: #cccccc;
+footer {
+  @include span(full);
+  padding-bottom: span(1);
+  padding-top: span(1);
+  text-align: center;
+  font-family: Arial;
+  .copyright {
+    font-size: 90%;
+  }
+  a {
+    font-family: 'Pacifico', cursive;
+    font-size: 120%;
+    @include link-colors(#535956, #045C70, #199E71, #0DDDC2, #cc0);
+
+  }
 }
 header {
 
@@ -241,21 +254,35 @@ h1, h2, h3 {
   }
 }
 .main5 {
-  .high {
-      @include replace-text-with-dimensions('alta.png');
-      display: block;
+  h2 {
+    color: $color4;
+    @include span(full);
+    span{
+      color: $color3;
     }
-    .baja {
-      @include replace-text-with-dimensions('baja.png');
-      display: block;
-    }
-  background-color: $color5;
-  div {
-    @include span(7);
-    &:last-child {
-      @include span(7 last);
-
-    }
-    
   }
+  .alta {
+    @include span(full);
+    @include breakpoint($tabletas2){
+    @include span(7 of 14);
+    text-align: center;
+    }
+ }
+  .baja {
+    @include span(full);
+    @include breakpoint($tabletas2){
+    @include span(7 of 14 last);
+    text-align: center;
+  }
+  }
+a.low{
+  @include replace-text-with-dimensions('baja.png');
+  display:block;
+  @include span(full);
+}
+a.high{
+  @include replace-text-with-dimensions('alta.png');
+  display:block;
+  @include span(full);
+}
 }

@@ -31,6 +31,6 @@ iframe .survey-page, body#patas {
 }
 
 a {
-	@include link-colors(red, green, blue, lime, #cc0);
+
 	@include hover-link;
 }
