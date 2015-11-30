@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url(https://fonts.googleapis.com/css?family=Fauna+One);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -182,8 +182,29 @@ h2 {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
       opacity: 0.8; }
 
-#footer {
-  background: #cccccc; }
+footer {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 5.7971%;
+  padding-top: 5.7971%;
+  text-align: center;
+  font-family: Arial; }
+  footer .copyright {
+    font-size: 90%; }
+  footer a {
+    font-family: 'Pacifico', cursive;
+    font-size: 120%;
+    color: #535956; }
+    footer a:visited {
+      color: #0DDDC2; }
+    footer a:focus {
+      color: #cc0; }
+    footer a:hover {
+      color: #045C70; }
+    footer a:active {
+      color: #199E71; }
 
 header {
   background-size: cover;
@@ -257,7 +278,8 @@ header {
           padding-left: 10px; } }
   header a {
     color: #4f0f2a;
-    font-size: 94%; }
+    font-size: 94%;
+    font-family: 'Bebas kai', serif; }
     header a:visited {
       color: #200611; }
     header a:focus {
@@ -304,8 +326,66 @@ header.sticky {
       background-size: contain;
       background-position: center; } }
 
-.main5 {
-  background-color: #ffffff; }
+.main5 h2 {
+  color: #4f0f2a;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0; }
+  .main5 h2 span {
+    color: #c9b39f; }
+.main5 .alta {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0; }
+  @media (min-width: 560px) {
+    .main5 .alta {
+      width: 49.27536%;
+      float: left;
+      margin-right: 1.44928%;
+      text-align: center; } }
+.main5 .baja {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0; }
+  @media (min-width: 560px) {
+    .main5 .baja {
+      width: 49.27536%;
+      float: right;
+      margin-right: 0;
+      text-align: center; } }
+.main5 a.low {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize;
+  background-image: url('../images/baja.png?1448878227');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 400px;
+  height: 267px;
+  display: block;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0; }
+.main5 a.high {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize;
+  background-image: url('../images/alta.png?1448878247');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 400px;
+  height: 267px;
+  display: block;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0; }
 
 .smcx-embed, .smcx-embed > .smcx-iframe-container {
   width: 100% !important; }
@@ -331,16 +411,7 @@ iframe .survey-page, body#patas {
   border-radius: 0px; }
 
 a {
-  color: red;
   text-decoration: none; }
-  a:visited {
-    color: lime; }
-  a:focus {
-    color: #cc0; }
-  a:hover {
-    color: green; }
-  a:active {
-    color: blue; }
   a:hover, a:focus {
     text-decoration: underline; }
 
