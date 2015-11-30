@@ -152,7 +152,11 @@ footer {
   .copyright {
     font-size: 90%;
   }
-  a {
+  a.nikita {
+    font-family: 'BebasKai', cursive;
+    @include link-colors($color4, $color1, $color2, $color3, $color4);
+  }
+  a.unbiciclista {
     font-family: 'Pacifico', cursive;
     font-size: 120%;
     @include link-colors(#535956, #045C70, #199E71, #0DDDC2, #cc0);

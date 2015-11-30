@@ -193,17 +193,28 @@ footer {
   font-family: Arial; }
   footer .copyright {
     font-size: 90%; }
-  footer a {
+  footer a.nikita {
+    font-family: 'BebasKai', cursive;
+    color: #4f0f2a; }
+    footer a.nikita:visited {
+      color: #c9b39f; }
+    footer a.nikita:focus {
+      color: #4f0f2a; }
+    footer a.nikita:hover {
+      color: #230c19; }
+    footer a.nikita:active {
+      color: #444444; }
+  footer a.unbiciclista {
     font-family: 'Pacifico', cursive;
     font-size: 120%;
     color: #535956; }
-    footer a:visited {
+    footer a.unbiciclista:visited {
       color: #0DDDC2; }
-    footer a:focus {
+    footer a.unbiciclista:focus {
       color: #cc0; }
-    footer a:hover {
+    footer a.unbiciclista:hover {
       color: #045C70; }
-    footer a:active {
+    footer a.unbiciclista:active {
       color: #199E71; }
 
 header {
@@ -409,6 +420,9 @@ iframe .survey-page, body#patas {
 .lg-outer .lg-thumb-item {
   border: 0px;
   border-radius: 0px; }
+
+.lg-sub-html p, #lg-counter {
+  font-family: 'BebasKai', serif !important; }
 
 a {
   text-decoration: none; }

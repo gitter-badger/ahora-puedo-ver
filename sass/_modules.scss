@@ -29,7 +29,9 @@ iframe .survey-page, body#patas {
 	border: 0px;
 	border-radius: 0px;
 }
-
+.lg-sub-html p, #lg-counter {
+	font-family: 'BebasKai', serif !important;
+}
 a {
 
 	@include hover-link;
