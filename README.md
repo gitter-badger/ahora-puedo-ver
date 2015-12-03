@@ -1,6 +1,8 @@
 
 [logo]: http://nikitanipone.es/wp-content/uploads/2014/12/logo2.jpg "Nikita Nipone"
 # ahora-puedo-ver
+
+[![Join the chat at https://gitter.im/primerproyecto/ahora-puedo-ver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/primerproyecto/ahora-puedo-ver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![alt text](http://nikitanipone.es/wp-content/uploads/2015/04/portada4-1049x600.jpg "Coleccion Ahora puedo ver")
 ## Información relativa al proyecto de nikita nipone tras primer contacto:
 1. Que sea sencillo :-)
